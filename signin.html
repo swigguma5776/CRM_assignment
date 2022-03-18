@@ -17,7 +17,9 @@
         <div id="sign-up-now">
             <p><strong>Don't Have An Account?</strong></p>
             <p><strong>What Are You Waiting For?  Let's Fix That Now!</strong></p>
-            <button type="button" class="sign-up-btn"><strong>Sign Up</strong></button>
+            <form action="/signup.html">
+            <button type="submit" class="sign-up-btn"><strong>Sign Up</strong></button>
+            </form>
             <br>
             <div>
                 <img src="images/Group 15@2x.png" style="width:25em; height:25em;" alt="rocket" id="rocket">
@@ -30,15 +32,18 @@
                     <form class="login" action="login" method="POST"><strong><h1>Sign In</h1></strong></form>    
                 <br>
                 <div class="username">
-                    <input type="text" id="username"  placeholder="Username">
+                    <i class="fa fa-user"></i>
+                    <input type="text" id="username" placeholder="Username">
                 </div>    
                 <br>
                 <div class="email">
+                    <i class="fa fa-envelope"></i>
                     <input type="text" id="email" placeholder="Email">
                 </div>    
                 <br>
                 <div class="password">
-                    <input type="text" id="password" placeholder="Password">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" id="password" placeholder="Password">
                 </div>    
                 <br>
 
