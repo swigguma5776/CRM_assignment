@@ -1,3 +1,272 @@
+
+    /* Navbar */
+    .navbar {
+        background-color: white;
+        overflow: hidden;
+        justify-content: space-evenly;
+    }
+
+    .navbar i {
+        color:rgb(9, 80, 248);
+        text-align: center;
+        padding-top: 5%;
+        font-size: 16;
+    }
+
+    .navbar a {
+        text-align: center;
+        color: black;
+        padding-top: 5%;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    
+    .navbar span {
+        padding-top: 4%;
+        color: white;
+        white-space: nowrap;
+    }
+    
+    .navbar button {
+        font-size: 12px;
+        border-radius: 15%;
+        padding: 1%;
+        width: 75%;
+    }
+    
+    .blue_button {
+        background-color: rgb(9, 80, 248);
+        color: white;
+        border-color: rgb(9, 80, 248);
+        border-width: .5px;
+    }
+    
+    .white_button {
+        background-color: white;
+        color: rgb(9, 80, 248);
+        border-color: rgb(9, 80, 248);
+        border-width: .5px;
+    }
+    
+    
+    /* Top Flex Box Section */
+    #beyonce_beyonce_reverse {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: white;
+        margin: 7%;
+    }
+    
+    #beyonce {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #beyonce p {
+        white-space: nowrap;
+    }
+
+    #beyonce button {
+        font-size: 20px;
+        border-radius: 15%;
+    }
+
+    #beyonce span {
+        font-size: 11px;
+    }
+    
+    .triple_three_tree {
+        max-height: 400px;
+        max-width: 300px;
+    }
+
+#above-start {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.start {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    display: grid;
+    border: 1px solid transparent;
+    padding: 0%;
+    height: auto;
+    width: auto;
+}
+
+
+
+.grid-container-f {
+    border: 1px solid transparent;
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    width: auto;
+    
+}
+.grid-item-0f div:hover{
+    background-color: blue;
+    color: white;
+    
+}
+
+.grid-item-0f {
+    display: grid;
+    border: 1px solid transparent;
+    background-color:transparent;
+    color: black;
+    grid-template-rows: 100%;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+    
+}
+
+.grid-item-1f {
+    display: grid;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url(/images/icons/new_icons/dollar-symbol.png);
+    grid-column: 1;
+    grid-row: 1;
+    background-color: transparent;
+    width: 100px;
+    height: 110px;
+    background-size: 50px ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 20%;
+    align-items: flex-end;
+    justify-content: center; 
+}
+
+.grid-item-2f {
+    display: grid;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url(/images/icons/Page-1.png);
+    grid-column: 2;
+    grid-row: 1;
+    background-color: transparent;
+    width: 100px;
+    height: 110px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 20%;
+    align-items: flex-end;
+    justify-content: center;    
+    
+}
+.grid-item-3f {
+    display: grid;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url(/images/icons/layer1.png);
+    grid-column: 3;
+    grid-row: 1;
+    background-color: transparent;
+    width: 100px;
+    height: 110px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 20%;
+    align-items: flex-end;
+    justify-content: center;    
+    
+}
+.grid-item-4f {
+    display: grid;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url(/images/icons/upanddown\ opposite\ sidebyside\ updown\ directions\ two\ arrows.png);
+    grid-column: 4;
+    grid-row: 1;
+    background-color: transparent;
+    width: 100px;
+    height: 110px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 20%;
+    align-items: flex-end;
+    justify-content: center;    
+    
+}
+
+.grid-container-f1 {
+    border: 1px solid transparent;
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    width: auto;
+    
+}
+
+.grid-item-7f {
+    display: grid ;
+    grid-template-rows: 1;
+    grid-template-columns: 40% auto ;
+    border: 1px solid transparent;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.grid-item-5f {
+    background-image: url(/images/credit-card-picture.png);
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    border: 1px solid gray;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: center;
+    background-size: 250px;
+    
+}
+
+.grid-item-6f {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    border: 1px solid gray;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    height: 300px;
+    max-height: 300px;
+    background-color: blue;
+    min-width: 0;
+    min-height: 0;
+
+}
+
+.text-pay {
+    background-color:transparent;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.text-pay p,h3, #learn-button{
+    margin: 0%;
+}
+
 footer{
     position: absolute; 
     padding-top: 50px;
