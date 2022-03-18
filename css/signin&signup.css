@@ -24,6 +24,12 @@ main{
     padding-bottom: 2%;
 }
 
+.sign-up-btn:hover{
+    color: blue;
+    background-color: white;
+
+}
+
 #signin{
 
     align-items: center;
@@ -40,13 +46,18 @@ main{
     margin-bottom: 10%;
     width: 70%;
     background-color: blue;
-    border: none;
+    border: 2px solid blue;
     border-radius: 150px;
     color: white;
     text-align: center;
 }
 
-#username{
+.sign-in-btn:hover{
+    color: blue;
+    background-color: white;
+}
+
+.username{
     margin-top: 10%;
     border-radius: 150px;
     border: 1px solid gray;
@@ -56,7 +67,11 @@ main{
     text-align: center;
 }
 
-#email{
+#username{
+    border:none;
+}
+
+.email{
     margin-top: 15%;
     margin-bottom: 15%;
     border-radius: 150px;
@@ -67,7 +82,11 @@ main{
     text-align: center;
 }
 
-#password{
+#email{
+    border: none;
+}
+
+.password{
     border-radius: 150px;
     border: 1px solid gray;
     margin-bottom: 15%;
@@ -75,6 +94,10 @@ main{
     padding-bottom: 5%;
     width: 130%;
     text-align: center;
+}
+
+#password{
+    border: none;
 }
 
 .icons{
@@ -132,13 +155,18 @@ main{
     margin-bottom: 10%;
     width: 70%;
     background-color: blue;
-    border: none;
+    border: 2px solid blue;
     border-radius: 150px;
     color: white;
     text-align: center;
 }
 
-#username2{
+.sign-in-btn2:hover{
+    color: blue;
+    background-color: white;
+}
+
+.username2{
     margin-top: 10%;
     border-radius: 150px;
     border: 1px solid gray;
@@ -148,7 +176,11 @@ main{
     text-align: center;
 }
 
-#email2{
+#username2{
+    border: none;
+}
+
+.email2{
     margin-top: 15%;
     margin-bottom: 15%;
     border-radius: 150px;
@@ -159,7 +191,11 @@ main{
     text-align: center;
 }
 
-#password2{
+#email2{
+    border: none;
+}
+
+.password2{
     border-radius: 150px;
     border: 1px solid gray;
     margin-bottom: 15%;
@@ -167,6 +203,10 @@ main{
     padding-bottom: 5%;
     width: 130%;
     text-align: center;
+}
+
+#password2{
+    border: none;
 }
 
 .icons2{
