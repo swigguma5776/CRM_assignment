@@ -49,6 +49,7 @@ main{
 #username{
     margin-top: 10%;
     border-radius: 150px;
+    border: 1px solid gray;
     padding-top: 5%;
     padding-bottom: 5%;
     width: 130%;
@@ -59,6 +60,7 @@ main{
     margin-top: 15%;
     margin-bottom: 15%;
     border-radius: 150px;
+    border: 1px solid gray;
     padding-top: 5%;
     padding-bottom: 5%;
     width: 130%;
@@ -67,6 +69,7 @@ main{
 
 #password{
     border-radius: 150px;
+    border: 1px solid gray;
     margin-bottom: 15%;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -77,29 +80,29 @@ main{
 .icons{
     display: flex;
     justify-content: space-between;
-    width: 110%;
+    width: 100%;
 }
 
 #facebook{
-    border: 2px solid lightgray;
+    border: 1px solid gray;
     border-radius: 100%;
     padding: 5%;
 }
 
 #twitter{
-    border: 2px solid lightgray;
+    border: 1px solid gray;
     border-radius: 100%;
     padding: 20%;
 }
 
 #linkedin{
-    border: 2px solid lightgray;
+    border: 1px solid gray;
     border-radius: 100%;
     padding: 20%;
 }
 
 #google{
-    border: 2px solid lightgray;
+    border: 1px solid gray;
     border-radius: 100%;
     padding: 20%;
 }
@@ -138,6 +141,7 @@ main{
 #username2{
     margin-top: 10%;
     border-radius: 150px;
+    border: 1px solid gray;
     padding-top: 5%;
     padding-bottom: 5%;
     width: 130%;
@@ -148,6 +152,7 @@ main{
     margin-top: 15%;
     margin-bottom: 15%;
     border-radius: 150px;
+    border: 1px solid gray;
     padding-top: 5%;
     padding-bottom: 5%;
     width: 130%;
@@ -156,6 +161,7 @@ main{
 
 #password2{
     border-radius: 150px;
+    border: 1px solid gray;
     margin-bottom: 15%;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -170,25 +176,25 @@ main{
 }
 
 #facebook2{
-    border: 2px solid lightgray;
+    border: 1px solid gray;
     border-radius: 100%;
     padding: 5%;
 }
 
 #twitter2{
-    border: 2px solid lightgray;
+    border: 1px solid gray;
     border-radius: 100%;
     padding: 20%;
 }
 
 #linkedin2{
-    border: 2px solid lightgray;
+    border: 1px solid gray;
     border-radius: 100%;
     padding: 20%;
 }
 
 #google2{
-    border: 2px solid lightgray;
+    border: 1px solid gray;
     border-radius: 100%;
     padding: 20%;
 }
