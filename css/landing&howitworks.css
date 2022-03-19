@@ -21,6 +21,11 @@
     font-size: 10px;
 }
 
+.navbar a:hover {
+    text-decoration: underline;
+    color:rgb(9, 80, 248)
+}
+
 .navbar span {
     padding-top: 4%;
     color: white;
@@ -65,6 +70,17 @@
 
 #beyonce p {
     white-space: nowrap;
+    text-decoration: none;
+}
+
+#beyonce a {
+    text-decoration: none;
+    color: black;
+}
+
+#beyonce a:hover {
+    text-decoration: underline;
+    color: rgb(9, 80, 248);
 }
 
 #beyonce button {
@@ -74,6 +90,16 @@
 
 #beyonce span {
     font-size: 11px;
+}
+
+.dot_blue {
+    content: "."; 
+    height: 6px;
+    width: 6px;
+    background-color: rgb(9, 80, 248);
+    margin-top: 5px; 
+    border-radius: 50%;
+    display: inline-block; 
 }
 
 .triple_three_tree {
@@ -410,9 +436,71 @@
     flex-direction: column;
 }
 
-#email_dashboard, #task_manage, #analytics, #project_calendar {
+#email_dashboard, #task_manage, 
+#analytics, #project_calendar {
     display: flex;
     flex-direction: column;
+}
+
+#email_dashboard div, #analytics div, 
+#task_manage div, #project_calendar div {
+    position: relative;
+    align-self: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(229, 239, 255); 
+}
+
+#task_manage i {
+    position: absolute;
+    right: 50px;
+    top: 60px;
+    font-size: 72px;
+    color: rgb(9, 80, 248);
+}
+
+#email_dashboard i {
+    position: absolute;
+    right: 55px;
+    top: 60px;
+    font-size: 72px;
+    color: rgb(9, 80, 248);
+}
+
+#analytics i {
+    position: absolute;
+    right: 65px;
+    top: 60px;
+    font-size: 72px;
+    color: rgb(9, 80, 248);
+}
+
+#project_calendar i {
+    position: absolute;
+    align-self:center;
+    right: 67px;
+    top: 60px;
+    font-size: 72px;
+    color: rgb(9, 80, 248);
+}
+
+#ice_cube p {
+    font-size: 12px;
+}
+
+#ice_cube button {
+    align-self: center;
+    background-color: white;
+    color: rgb(9, 80, 248);
+    border-color: rgb(9, 80, 248);
+    border-width: .5px;
+    width: 50%;
+}
+
+#ice_cube button:hover {
+    background-color: rgb(9, 80, 248);
+    color: white;
 }
 /* -Dominic ^^ */
 
