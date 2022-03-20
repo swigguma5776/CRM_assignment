@@ -629,6 +629,7 @@ footer{
     width: 35%; 
     color: white; 
     border-bottom: 1px solid white; 
+    white-space: nowrap; 
 }
 
 #footer_text{
@@ -668,7 +669,7 @@ footer{
     width: 200px; 
     height: 40px; 
     background-color: rgb(147, 214, 46);
-    border-radius: 10%; 
+    border-radius: 5px; 
     color: white; 
 }
 
@@ -676,7 +677,7 @@ footer{
     width: 200px; 
     height: 40px; 
     background-color: white;
-    border-radius: 10%; 
+    border-radius: 5px; 
     color: #0750F8; 
 }
 
